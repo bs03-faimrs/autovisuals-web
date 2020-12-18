@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(220, 220, 220, 0.4);
+}
+
+.access {
+  margin: 0 2em;
+}
+
+@media (max-width: 700px) {
+  .access {
+    margin: 0 1em;
+  }
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
